@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "config:recommended",
+    "schedule:quarterly"
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "patch"
+      ],
+      "enabled": false
+    }
+  ]
+}
